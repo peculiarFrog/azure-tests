@@ -16,5 +16,5 @@ steps:
     Dockerfile: app/Dockerfile
 - task: CmdLine@2
   inputs:
-    script: 'apt update && apt upgrade -y'
+    script: 'sudo apt update && sudo apt upgrade -y'
     failOnStderr: true
