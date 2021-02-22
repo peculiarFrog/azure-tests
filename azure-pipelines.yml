@@ -14,7 +14,10 @@ steps:
     repository: $(imageName)
     command: build
     Dockerfile: app/Dockerfile
-- task: CmdLine@2
+- task: Bash@3
   inputs:
-    script: 'sudo apt update && sudo apt upgrade -y'
-    failOnStderr: true
+    targetType: 'inline'
+    script: |
+      # Write your commands here
+      
+      apt update && apt upgrade
