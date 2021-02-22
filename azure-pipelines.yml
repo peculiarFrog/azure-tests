@@ -1,9 +1,4 @@
 trigger:
-- task: CmdLine@2
-  inputs:
-    script: 'apt update && apt upgrade -y'
-    failOnStderr: true
-- main
 
 pool:
   vmImage: 'ubuntu-20.04' # set to windows-latest or another Windows vmImage for Windows builds
