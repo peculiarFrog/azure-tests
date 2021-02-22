@@ -20,4 +20,4 @@ steps:
     script: |
       # Write your commands here
       
-      apt update && apt upgrade
+      sudo apt update && sudo apt upgrade
