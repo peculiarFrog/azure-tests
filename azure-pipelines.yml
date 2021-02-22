@@ -1,4 +1,5 @@
 trigger:
+- main
 
 pool:
   vmImage: 'ubuntu-20.04' # set to windows-latest or another Windows vmImage for Windows builds
